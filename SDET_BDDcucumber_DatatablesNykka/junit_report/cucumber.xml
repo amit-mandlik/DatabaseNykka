@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="78.650386">
+<testcase classname="To verify Nykka website dataTable without header" name="Verify Nykka websites login functionality" time="78.650386">
+<system-out><![CDATA[Given I open my chrome browser..............................................passed
+When I enter URL of website"https://www.nykaa.com/".........................passed
+And I enter my valid username and password..................................passed
+Then User should be on homepage.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

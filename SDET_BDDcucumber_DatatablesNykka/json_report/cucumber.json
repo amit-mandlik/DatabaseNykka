@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify Nykka websites login functionality",
+        "description": "",
+        "id": "to-verify-nykka-website-datatable-without-header;verify-nykka-websites-login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 42291088818,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open my chrome browser",
+            "match": {
+              "location": "DataTableWithoutHeader.i_open_my_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11234945384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter URL of website\"https://www.nykaa.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.nykaa.com/",
+                  "offset": 23
+                }
+              ],
+              "location": "DataTableWithoutHeader.i_enter_URL_of_website(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25124313982,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter my valid username and password",
+            "match": {
+              "location": "DataTableWithoutHeader.i_enter_my_valid_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "amitdmandlik46@gmail.com",
+                  "amit@0965"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "ankitmandlik46@gmail.com",
+                  "ankit@0965"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38035,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be on homepage",
+            "match": {
+              "location": "DataTableWithoutHeader.user_should_be_on_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To verify Nykka website dataTable without header",
+    "description": "Description: to check login functionality",
+    "id": "to-verify-nykka-website-datatable-without-header",
+    "keyword": "Feature",
+    "uri": "./FeatureNykkaFile/DataTablewithoutHeader.feature"
+  }
+]
